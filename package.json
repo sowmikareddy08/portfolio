@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Sowmika Reddy Portfolio Website",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 3000",
+    "build": "esbuild speed-insights.js --bundle --format=esm --outfile=speed-insights.bundle.js",
+    "lint": "echo 'Linting skipped for static HTML'"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Sowmika Reddy",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
